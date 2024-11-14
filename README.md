@@ -1,1 +1,1 @@
-- [github](oz/github/)
+- [github](/github/)

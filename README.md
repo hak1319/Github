@@ -24,13 +24,15 @@ Github
             or
             1. git commit -am "--" (이미 추적이 되있는 파일을 새롭게 추가하고 커밋 할 경우)
             
-#####명령어(터미널)
+명령어(터미널)
+----------
 
         * pwd : 현재위치 파악
         * cd 000 : 위치 이동 
         * mkdir 0000 : 폴더생성
         
-####명령어(git)
+명령어(git)
+---
 
         * git remote -v : 주소확인
         * git config : 설정값 
@@ -54,17 +56,20 @@ Github
           (reset 시킨 후 변동 되있는거 일일히 수정해야 함 , 복구시 파일을 완전히 삭제했다면 안에 내용은 복구 불가 커밋 이력만 돌아옴)
         * git revert 해시값 : 해시값의 commit 된 내용들 그전 상태로 전환 ,revert 라는 이력 남음 (오류 발생시 git revert --continue -> git revert --no-commit)
 
-#####Tip
+Tip
+--
 
         * .gitignore : 폴더안에 .gitignore 파일명 생성후 그안에 커밋하고 싶지 않은 파일명을 생성하면 그파일은 커밋되지 않는다. 
         (ex) admin_info.yaml < 이 파일은 커밋되지 않는다
         * vim 편집기 : commit시 나올수 있음 쉬프트 i or i + :wq(저장후 종료) q, esc(입력종료) 이정도만 알면 될 듯
         
-###Commit 
+Commit
+---
 
         * commit은 언제든 생성하고 그곳으로 이동 있으나 협업 시 중요한 곳에만 커밋을 남김
 
-##branch
+branch
+--
 
         * 독립적으로 작업을 시행 할 때 생성 
         * 명령어 
